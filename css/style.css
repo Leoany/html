@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #faf7fb;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+footer {
+    padding: 20px;
+    color: white;
+    background: #47264b;
+    text-align: center;
+}
+
+.cabecalho,
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marca {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.marca span {
+    display: block;
+    font-size: .65rem;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+}
+
+nav a:hover,
+nav .ativo {
+    background: #6f3f72;
+}
+
+main {
+    padding: 40px 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #47264b;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.etiqueta {
+    color: #6f3f72;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.apresentacao,
+.sobre,
+.contato {
+    display: grid;
+    gap: 40px;
+    align-items: center;
+}
+
+.apresentacao {
+    grid-template-columns: 1fr 350px;
+    margin-bottom: 40px;
+}
+
+.sobre {
+    grid-template-columns: 350px 1fr;
+}
+
+.contato {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.retrato,
+.bloco,
+.sobre,
+.contato,
+.interesses,
+.projetos {
+    padding: 25px;
+    margin-bottom: 25px;
+    background: white;
+    border: 1px solid #e5dce7;
+    border-radius: 10px;
+}
+
+.retrato {
+    margin: 0;
+}
+
+.retrato img,
+.moldura img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cards,
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    padding: 20px;
+    background: #f5eaf6;
+    border-radius: 8px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 16px;
+    color: white;
+    background: #6f3f72;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.link-simples {
+    margin-left: 10px;
+    color: #6f3f72;
+    font-weight: bold;
+}
+
+.titulo-pagina,
+.interesses {
+    text-align: center;
+}
+
+.lista-interesses {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lista-interesses span {
+    padding: 7px 12px;
+    background: #f1e5f3;
+    color: #47264b;
+    border-radius: 20px;
+}
+
+.menu-album {
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.moldura {
+    margin: 0;
+    padding: 8px;
+    background: white;
+    border: 1px solid #e5dce7;
+    border-radius: 8px;
+}
+
+.moldura figcaption {
+    padding: 8px;
+    color: #47264b;
+    text-align: center;
+    font-weight: bold;
+}
+
+.projetos {
+    color: white;
+    background: #47264b;
+}
+
+.projetos h2,
+.projetos p {
+    color: white;
+}
+
+.botao-claro {
+    margin-left: 8px;
+    color: #47264b;
+    background: white;
+}
+
+.contato-perfil {
+    padding: 25px;
+    color: white;
+    background: #47264b;
+    border-radius: 8px;
+}
+
+.contato-perfil h2,
+.contato-perfil p {
+    color: white;
+}
+
+.contato-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #f5eaf6;
+    border-radius: 8px;
+}
+
+.email {
+    color: #6f3f72;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px;
+}
